@@ -104,3 +104,8 @@ deploy_script:
           & python script\upload.py
         }
       }
+skip_commits:
+  files:
+    - docs/*
+    - script/*
+    - tools/*
