@@ -1544,7 +1544,7 @@ the cursor when dragging.
   * `HTMLComplete` - Save complete-html page.
   * `MHTML` - Save complete-html page as MHTML.
 
-Returns `Promise<void>` - resolves with `true` if the process of saving page has been initiated successfully.
+Returns `Promise<void>` - resolves if the process of saving page has been initiated successfully.
 
 ```javascript
 const { BrowserWindow } = require('electron')
